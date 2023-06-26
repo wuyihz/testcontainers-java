@@ -111,6 +111,8 @@ dependencies {
     jarFileTestImplementation 'junit:junit:4.13.2'
     jarFileTestImplementation 'org.assertj:assertj-core:3.22.0'
     jarFileTestImplementation 'org.ow2.asm:asm-debug-all:5.2'
+
+    api "io.kubernetes:client-java:9.0.2"
 }
 
 tasks.generatePomFileForMavenJavaPublication.finalizedBy(
