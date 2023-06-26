@@ -50,6 +50,7 @@ import java.util.function.Consumer;
 @Slf4j
 public class DockerClientFactory {
 
+
     public static final ThreadGroup TESTCONTAINERS_THREAD_GROUP = new ThreadGroup("testcontainers");
 
     public static final String TESTCONTAINERS_LABEL = DockerClientFactory.class.getPackage().getName();
