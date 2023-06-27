@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 @Data
-@EqualsAndHashCode(of = {"name", "PodConfig"})
+@EqualsAndHashCode(of = {"name", "nameSpace"})
 public class PodInfo implements Serializable {
 
     private String name;
