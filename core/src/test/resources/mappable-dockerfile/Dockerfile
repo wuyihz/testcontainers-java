@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.19.4
 ADD folder/someFile.txt /someFile.txt
 RUN cat /someFile.txt
 ADD test.txt /test.txt
