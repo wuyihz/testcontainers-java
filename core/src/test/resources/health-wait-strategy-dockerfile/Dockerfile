@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.19.4
 
 HEALTHCHECK --interval=1s CMD test -e /testfile
 
