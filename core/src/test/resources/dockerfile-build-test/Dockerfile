@@ -1,2 +1,2 @@
-FROM alpine:3.16
+FROM alpine:3.21.2
 COPY localfile.txt /test.txt
